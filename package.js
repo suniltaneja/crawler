@@ -1,7 +1,8 @@
 Package.describe({
   summary: "Food Crawler",
   name: "wenqer:crawler",
-  version: "0.1.0"
+  version: "0.1.0",
+  documentation: null
 });
 
 Npm.depends({
