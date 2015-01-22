@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Food Crawler",
-  name: "food:crawler",
+  name: "wenqer:crawler",
   version: "0.1.0"
 });
 
