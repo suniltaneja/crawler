@@ -68,7 +68,11 @@ crawler = {
         title: 'Rollhouse',
         name: 'rollhouse',
         href: 'http://www.rollhouse.com.ua/',
-        menu: result
+        menu: result,
+        tags: [
+          "ролхаус",
+          "rollhouse"
+        ]
       });
     });
   },
@@ -214,7 +218,11 @@ crawler = {
 
         items.push({
           title: title,
-          weight: weight
+          weight: weight,
+          tags: [
+            "ecobuffet",
+            "екобуфет"
+          ]
         })
       });
 
@@ -277,6 +285,10 @@ crawler = {
             }
           ]
         }
+      ],
+      tags: [
+        "vegano",
+        "вегано"
       ]
     });
   },
@@ -301,6 +313,11 @@ crawler = {
             }
           ]
         }
+      ],
+      tags: [
+        "capo",
+        "сапо",
+        "капо"
       ]
     });
   },
@@ -321,6 +338,11 @@ crawler = {
             }
           ]
         }
+      ],
+      tags: [
+        "imbir",
+        "имбирь",
+        "імбир"
       ]
     });
   },
@@ -331,6 +353,10 @@ crawler = {
       name: 'saygrace',
       href: 'https://docs.google.com/a/grammarly.com/forms/d/1dmzEh_5_xlCUcvJrGVxOeDYwbf_Kep87ds_RO_ue6lI/formResponse',
       hasDailyMenu: true,
+      tags: [
+        "saygrace",
+        "сейгрейс"
+      ],
       menu: [
         {
           title: '',
@@ -470,6 +496,11 @@ crawler = {
     callback(null, {
       title: 'Fridge',
       name: 'fridge',
+      tags: [
+        "фридж",
+        "fridge",
+        "холодильник"
+      ],
       href: null,
       menu: [
         {
@@ -648,7 +679,13 @@ crawler = {
         title: 'Ping-Pong',
         name: 'pingpong',
         href: 'http://ping-pong.ua/',
-        menu: result
+        menu: result,
+        tags: [
+          "pingpong",
+          "ping-pong",
+          "пинпонг",
+          "пин-понг"
+        ]
       });
     });
   }
