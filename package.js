@@ -1,7 +1,7 @@
 Package.describe({
   summary: "Food Crawler",
   name: "wenqer:crawler",
-  version: "0.2.0",
+  version: "0.3.0",
   documentation: null
 });
 
